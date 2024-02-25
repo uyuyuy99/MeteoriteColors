@@ -1,0 +1,6 @@
+name: ColorsTest
+description: Testing out some colors.
+main: com.meteoritepvp.colorstest.Main
+version: ${project.version}
+author: "MeteoritePVP: uyuyuy99"
+depend: [MeteoriteAPI]
