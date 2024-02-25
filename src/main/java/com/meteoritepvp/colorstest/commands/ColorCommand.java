@@ -28,7 +28,7 @@ public class ColorCommand {
 
     public SampleCommand(MeteoritePlugin plugin) {
         // Create the inventory for displaying colored wool
-        inventory = new MeteoriteInventory(plugin, CC.BLUE + CC.BOLD + "Your Colors", 9, 6, false);
+        inventory = new MeteoriteInventory(plugin, CC.BLUE + CC.BOLD + "Selected Colors", 9, 6, false);
 
         // Create the only page for this inventory, initially empty
         page = new BasicInventory();

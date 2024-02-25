@@ -34,9 +34,6 @@ public class Main extends MeteoritePlugin {
     public void onEnable() {
         super.onEnable();
 
-        saveDefaultConfig();
-        reloadConfig();
-
         registerPlaceholderParameter("colorParam", (sender -> getColors()));
     }
 
